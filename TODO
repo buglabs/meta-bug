@@ -1,0 +1,5 @@
+o Linux.inc needed in this layer?
+o u-boot.inc needed in this layer?
+o Better bbappend for u-boot recipe?
+o Add support for BUG 1.x devices
+o Move marvel firmware into oe-core?
