@@ -1,0 +1,2 @@
+xinput set-int-prop "bmi-lcd-ts" "Evdev Axis Calibration" 32 240 13 239 10
+
