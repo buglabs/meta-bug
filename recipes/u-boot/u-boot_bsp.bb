@@ -1,4 +1,4 @@
-require u-boot.inc
+require recipes-bsp/u-boot/u-boot.inc
 PR = "r2"
 
 FILESPATHPKG =. "u-boot-git:"
