@@ -1,4 +1,4 @@
-require linux.inc
+require recipes-kernel/linux/linux.inc
 
 KERNEL_IMAGETYPE = "uImage"
 
