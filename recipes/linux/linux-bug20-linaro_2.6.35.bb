@@ -45,3 +45,11 @@ omap3-iommu \
 omap3-isp \
 omap34xxcam \
 "
+# Perf in 2.6.35 doesn't build, so disable it
+do_compile_perf() {
+    :
+}
+
+do_install_perf() {
+    :
+}
