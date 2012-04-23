@@ -6,7 +6,7 @@ COMPATIBLE_MACHINE = "bug20"
 
 MACHINE_KERNEL_PR_append = "+gitr${SRCREV}"
 
-SRCREV = "b940b37db6d76200b482013342bf21de5579fc95"
+SRCREV = "37efe9e3ef0e12a207a92da21f28fe7d295c4aba"
 
 SRC_URI = "git://github.com/buglabs/bug20-2.6.35-linaro.git;branch=master;protocol=git"
 
