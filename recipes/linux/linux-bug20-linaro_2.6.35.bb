@@ -18,6 +18,8 @@ do_configure_prepend() {
 
 do_configure_append() {
 	sed -i -e "s/CONFIG_LOCALVERSION=\"\"/CONFIG_LOCALVERSION=\"-${PR}\"/g" ${S}/.config
+	sed -i "/CONFIG_ARM_UNWIND[ =]/d" ${S}/.config
+	echo "# CONFIG_ARM_UNWIND is not set" >> ${S}/.config
 }
 
 # Make BMI header files available for JNI
